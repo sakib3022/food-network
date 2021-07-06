@@ -7,6 +7,11 @@ h1{
     
     
 }
+h2{
+    
+    font-size: 35px;
+
+}
 
 
 .color{
@@ -40,6 +45,41 @@ h1{
 }
 .recipies-item{
    text-align: center;
-   
+   margin-bottom: 50px;
    
 }
+.recipie-title-item
+{
+
+    width: 35%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 4%;
+    border-radius: 20px;
+   
+}
+.recipie-title-item img{
+    width: 100%;
+}
+.subscribe-like-item{
+    width: 80%;
+    padding-left: 50px;
+    box-shadow: 10px 10px 40px gray;
+    margin: 10%;
+    border-radius: 20px;
+    margin-bottom: 250px;
+ 
+}
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding-bottom: 6%;
+     }
+    
+    
+

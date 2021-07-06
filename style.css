@@ -7,6 +7,8 @@ h1{
     
     
 }
+
+
 .color{
     color: dodgerblue;
 }
@@ -35,4 +37,9 @@ h1{
 }
 .text-me{
     padding-top: 20%;
+}
+.recipies-item{
+   text-align: center;
+   
+   
 }

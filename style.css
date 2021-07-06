@@ -1,6 +1,15 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+ul {
+    list-style-type: none;
+    margin-left: 50px;
+    padding-left: 5%;
+  }
+  
+  li {
+    display: inline;
+  }
 h1{
     font-size: 60px;
     line-height: 50%;
@@ -19,7 +28,7 @@ h2{
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 .half-width{
     width: 50%;
@@ -61,14 +70,20 @@ h2{
 .recipie-title-item img{
     width: 100%;
 }
-.subscribe-like-item{
+.subscribe-likes{
     width: 80%;
-    padding-left: 50px;
+    padding: 30px;
     box-shadow: 10px 10px 40px gray;
     margin: 10%;
     border-radius: 20px;
-    margin-bottom: 220px;
+    margin-bottom: 250px;
  
+}
+.subscribe-like-item{
+    width: 80%;
+    padding-left: 10px;
+    margin: 10%;
+    border-radius: 20px;
 }
     .footer {
         position: fixed;
@@ -78,7 +93,7 @@ h2{
         background-color: black;
         color: white;
         text-align: center;
-        padding-bottom: 5%;
+        padding-bottom: 3%;
      }
     
     
